@@ -15,9 +15,9 @@ export default class UsersService {
     return token;
   }
   
-  private generateToken(user: User): string {
-    const {id, username} = user;
-    const token = jwt.sign({id, username}, 'secret');
+  private generateToken = (user: User) => {
+    const { id, username } = user;
+    const token = jwt.sign({ id, username }, 'secret');
     return token;
-  }
+  };
 }
