@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 import statusCodes from '../utlis/statusCodes';
-import ProductsService from '../sevices/productsService';
+import ProductsService from '../sevices/ProductsService';
 
 export default class ProductsController {
   constructor(private productsService = new ProductsService()) {}
