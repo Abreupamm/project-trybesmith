@@ -1,6 +1,6 @@
-import { Router } from "express";
+import { Router } from 'express';
 
-import OrdersController from "../controllers/OrdersController";
+import OrdersController from '../controllers/OrdersController';
 
 const ordersRouter = Router();
 const ordersController = new OrdersController();
