@@ -9,3 +9,8 @@ export interface User {
 export interface Token {
   token: string,
 }
+
+export interface Login {
+  username: string,
+  password: string,
+}
